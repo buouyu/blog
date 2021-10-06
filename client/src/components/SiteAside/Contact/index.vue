@@ -44,7 +44,7 @@
         <span>{{data.mail}}</span>
         <div class="pop">
           <img
-            src="https://i.loli.net/2021/10/05/9cjstaZfmlRKU4H.png"
+            :src="data.weixinQrCode"
             alt=""
           />
         </div>

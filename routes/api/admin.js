@@ -33,10 +33,10 @@ router.get("/whoami", asyncHandler(async (req, res) => {
         github: user.github || 'https://www.baidu.com/',
         qq: user.qq,
         qqQrCode:
-          "https://i.loli.net/2021/10/05/9cjstaZfmlRKU4H.png",
+          "https://i.loli.net/2021/10/06/2JKkREbgz6A81CZ.jpg",
         weixin: user.weixin,
         weixinQrCode:
-          "https://i.loli.net/2021/10/05/9cjstaZfmlRKU4H.png",
+          "https://i.loli.net/2021/10/06/2JKkREbgz6A81CZ.jpg",
         mail: "我的邮箱",
         mailTo:user.mailTo,
         icp: "浙ICP备17001719号",
