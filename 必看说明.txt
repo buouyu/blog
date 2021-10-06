@@ -1,7 +1,8 @@
 1、提前安装好node和mysql
-2、把根目录的admins.sql和banners.sql这两个表导入自己的数据库
+2、把根目录的blog.sql数据库文件导入自己的数据库
 3、到models/db.js更改自己的数据库配置
 4、打开命令工具到项目的根目录，npm i 安装所有依赖
 5、然后npm run start 或者 node index 启动服务器
 6、最后访问http://localhost:9000 即可
  注：若端口已被占用，请到routers/init.js更改端口
+7、在页面中有两个测试账号     账号/密码:lby      账号/密码：cjj    也可以自己注册
